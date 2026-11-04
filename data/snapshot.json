@@ -11,7 +11,7 @@
   "desc": "",
   "role": "",
   "ext": "pdf",
-  "pages": 1
+  "pages": 0
  },
  {
   "code": "T02",
@@ -25,7 +25,7 @@
   "desc": "",
   "role": "",
   "ext": "pdf",
-  "pages": 1
+  "pages": 0
  },
  {
   "code": "T03",
@@ -39,7 +39,7 @@
   "desc": "",
   "role": "",
   "ext": "pdf",
-  "pages": 1
+  "pages": 0
  },
  {
   "code": "T04",
@@ -53,7 +53,7 @@
   "desc": "",
   "role": "",
   "ext": "pdf",
-  "pages": 1
+  "pages": 0
  },
  {
   "code": "T05",
@@ -67,7 +67,7 @@
   "desc": "",
   "role": "",
   "ext": "pdf",
-  "pages": 1
+  "pages": 0
  },
  {
   "code": "M01",
@@ -81,7 +81,7 @@
   "desc": "",
   "role": "",
   "ext": "pdf",
-  "pages": 1
+  "pages": 0
  },
  {
   "code": "M02",
@@ -95,7 +95,7 @@
   "desc": "",
   "role": "",
   "ext": "pdf",
-  "pages": 1
+  "pages": 0
  },
  {
   "code": "B01",
@@ -106,10 +106,10 @@
   "full": "การพยากรณ์ การวางแผน และการตัดสินใจในอุตสาหกรรมโลจิสติกส์",
   "status": "",
   "web": "ใช่",
-  "desc": "ตำราสำหรับรายวิชา LOG3201",
+  "desc": "",
   "role": "",
   "ext": "pdf",
-  "pages": 1
+  "pages": 0
  },
  {
   "code": "B02",
@@ -120,10 +120,10 @@
   "full": "การจัดการสารสนเทศและเทคโนโลยีดิจิทัลในอุตสาหกรรมโลจิสติกส์",
   "status": "",
   "web": "ใช่",
-  "desc": "ตำราสำหรับรายวิชา LOG3209",
+  "desc": "",
   "role": "",
   "ext": "pdf",
-  "pages": 1
+  "pages": 0
  },
  {
   "code": "B03",
@@ -134,10 +134,10 @@
   "full": "การจัดการขนส่งระบบราง",
   "status": "",
   "web": "ใช่",
-  "desc": "ตำราสำหรับรายวิชา LOG4306",
+  "desc": "",
   "role": "",
   "ext": "pdf",
-  "pages": 1
+  "pages": 0
  },
  {
   "code": "P01",
@@ -151,7 +151,7 @@
   "desc": "",
   "role": "",
   "ext": "pdf",
-  "pages": 1
+  "pages": 0
  },
  {
   "code": "P02",
@@ -161,11 +161,11 @@
   "title": "Psychographic and Behavioral Segmentation of Digital Nomads",
   "full": "Psychographic And Behavioral Segmentation of Digital Nomads in Southern Thailand",
   "status": "อยู่ระหว่างพิจารณา",
-  "web": "ชื่อและสถานะเท่านั้น",
+  "web": "ใช่",
   "desc": "",
   "role": "",
   "ext": "pdf",
-  "pages": 1
+  "pages": 0
  },
  {
   "code": "P03",
@@ -175,11 +175,11 @@
   "title": "Determinants of Chinese Tourists Behavioral Intentions",
   "full": "Determinants of Chinese Tourists' Behavioral Intentions in Thailand",
   "status": "อยู่ระหว่างพิจารณา",
-  "web": "ชื่อและสถานะเท่านั้น",
+  "web": "ใช่",
   "desc": "",
   "role": "",
   "ext": "pdf",
-  "pages": 1
+  "pages": 0
  },
  {
   "code": "P04",
@@ -189,11 +189,11 @@
   "title": "Willingness to Pay for Integrated Digital Convenience Services",
   "full": "Willingness to Pay for Integrated Digital Convenience Services in Golf Tourism: Evidence from Thailand",
   "status": "อยู่ระหว่างพิจารณา",
-  "web": "ชื่อและสถานะเท่านั้น",
+  "web": "ใช่",
   "desc": "",
   "role": "",
   "ext": "pdf",
-  "pages": 1
+  "pages": 0
  },
  {
   "code": "P05",
@@ -203,11 +203,11 @@
   "title": "แนวทางการพัฒนาผลิตภัณฑ์การท่องเที่ยวสำหรับนักเดินทางดิจิทัล",
   "full": "แนวทางการพัฒนาผลิตภัณฑ์การท่องเที่ยวสำหรับนักเดินทางดิจิทัลบนหลักการจับคู่อุปสงค์",
   "status": "อยู่ระหว่างพิจารณา",
-  "web": "ชื่อและสถานะเท่านั้น",
+  "web": "ใช่",
   "desc": "",
   "role": "",
   "ext": "pdf",
-  "pages": 1
+  "pages": 0
  },
  {
   "code": "P06",
@@ -221,7 +221,7 @@
   "desc": "",
   "role": "",
   "ext": "pdf",
-  "pages": 1
+  "pages": 0
  },
  {
   "code": "P07",
@@ -235,7 +235,7 @@
   "desc": "",
   "role": "",
   "ext": "pdf",
-  "pages": 1
+  "pages": 0
  },
  {
   "code": "P08",
@@ -249,7 +249,7 @@
   "desc": "",
   "role": "",
   "ext": "pdf",
-  "pages": 1
+  "pages": 0
  },
  {
   "code": "P09",
@@ -263,7 +263,7 @@
   "desc": "",
   "role": "",
   "ext": "pdf",
-  "pages": 1
+  "pages": 0
  },
  {
   "code": "P10",
@@ -277,7 +277,7 @@
   "desc": "",
   "role": "",
   "ext": "pdf",
-  "pages": 1
+  "pages": 0
  },
  {
   "code": "R01",
@@ -291,7 +291,7 @@
   "desc": "",
   "role": "",
   "ext": "pdf",
-  "pages": 1
+  "pages": 0
  },
  {
   "code": "R02",
@@ -305,7 +305,7 @@
   "desc": "",
   "role": "",
   "ext": "pdf",
-  "pages": 1
+  "pages": 0
  },
  {
   "code": "S01",
@@ -319,7 +319,7 @@
   "desc": "",
   "role": "",
   "ext": "pdf",
-  "pages": 1
+  "pages": 0
  },
  {
   "code": "A01",
@@ -330,10 +330,10 @@
   "full": "คำสั่งแต่งตั้งคณะกรรมการ KM วิจัยของคณะ",
   "status": "",
   "web": "ใช่",
-  "desc": "คำสั่งฉบับภาพ",
+  "desc": "",
   "role": "",
   "ext": "jpg",
-  "pages": 2
+  "pages": 0
  },
  {
   "code": "A02",
@@ -341,13 +341,13 @@
   "typ": "A",
   "year": "2569",
   "title": "คำสั่งแต่งตั้งรองผู้อำนวยการสำนักพิมพ์",
-  "full": "",
+  "full": "คำสั่งแต่งตั้งรองผู้อำนวยการสำนักพิมพ์",
   "status": "",
   "web": "ใช่",
   "desc": "",
   "role": "",
   "ext": "jpg",
-  "pages": 1
+  "pages": 0
  },
  {
   "code": "A03",
@@ -355,13 +355,13 @@
   "typ": "A",
   "year": "2569",
   "title": "คำสั่งแต่งตั้งงานปรับปรุงหลักสูตร",
-  "full": "",
+  "full": "คำสั่งแต่งตั้งงานปรับปรุงหลักสูตร",
   "status": "",
   "web": "ใช่",
   "desc": "",
   "role": "",
   "ext": "pdf",
-  "pages": 1
+  "pages": 0
  },
  {
   "code": "D01",
@@ -369,12 +369,26 @@
   "typ": "D",
   "year": "2569",
   "title": "อบรมจริยธรรม",
-  "full": "",
+  "full": "อบรมจริยธรรม",
   "status": "",
   "web": "ใช่",
   "desc": "",
   "role": "",
   "ext": "pdf",
-  "pages": 1
+  "pages": 0
+ },
+ {
+  "code": "P11",
+  "g": 2,
+  "typ": "P",
+  "year": "2569",
+  "title": "Process Analysis and Application of Information Technology with VSM in Health Emergency Management for Golf Tourism",
+  "full": "Process Analysis and Application of Information Technology with VSM in Health Emergency Management for Golf Tourism",
+  "status": "เผยแพร่แล้ว",
+  "web": "ใช่",
+  "desc": "",
+  "role": "",
+  "ext": "pdf",
+  "pages": 0
  }
 ]
