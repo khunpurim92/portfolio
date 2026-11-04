@@ -158,3 +158,9 @@ h1, h2, h3 { margin: 0; line-height: 1.3; }
 
 .shot { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: top; background: var(--panel2); }
 .thumb.off .shot { display: none; }
+
+.tch { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 22px 32px; }
+.tch-col h3 { font-size: 16.5px; font-weight: 600; margin-bottom: 8px; }
+.tch-col ul { list-style: none; margin: 0; padding: 0; }
+.tch-col li { display: flex; gap: 14px; padding: 9px 0; border-top: 1px solid var(--line); font-size: 15.5px; }
+.tch-col li .code { min-width: 76px; font-weight: 600; color: var(--accent); }

@@ -75,6 +75,18 @@ function banner() {
   return '<div class="banner' + (state.open ? "" : " closed") + '" role="status">' + (state.open ? "ไฟล์หลักฐานเปิดให้ดูระหว่างการประเมินต่อสัญญาจ้าง ปีที่ 8 กดปุ่ม เปิดไฟล์ฉบับเต็ม ที่รายการผลงาน" : "ปิดการเข้าถึงไฟล์หลักฐานแล้ว รายการผลงานยังแสดงไว้ตามเดิม") + "</div>";
 }
 
+function teachingBlock(l) {
+  function col(t, label) {
+    var rows = byType(l, t);
+    if (!rows.length) return "";
+    return '<div class="tch-col"><h3>' + label + ' <span class="muted">' + rows.length + ' รายวิชา</span></h3><ul>' + rows.map(function (i) {
+      return '<li><span class="code">' + esc(i.title) + '</span><span>' + esc(i.full && i.full !== i.title ? i.full : "") + "</span></li>";
+    }).join("") + "</ul></div>";
+  }
+  var h = col("T", "ระดับปริญญาตรี") + col("M", "ระดับบัณฑิตศึกษา");
+  if (!h) return "";
+  return '<section class="card"><div class="card-h"><h2>งานสอน</h2><span class="muted">รายวิชาที่จัดทำเอกสารประกอบการสอน</span></div><div class="tch">' + h + "</div></section>";
+}
 function renderHome() {
   var l = visible(), P = byType(l, "P"), R = byType(l, "R");
   var pub = byStatus(P, "เผยแพร่แล้ว").length, rev = byStatus(P, "อยู่ระหว่างพิจารณา").length, dr = byStatus(P, "ระหว่างเลือกวารสาร").length;
@@ -89,6 +101,7 @@ function renderHome() {
     '<section class="card"><div class="profile"><img class="photo" src="assets/photo.jpg" alt="รูปถ่าย อ.ดร.ปุริม ศรีสวัสดิ์"><div class="pbody"><div><h2 style="font-size:21px">อ.ดร.ปุริม ศรีสวัสดิ์</h2><div class="muted">อาจารย์ประจำ คณะบริหารธุรกิจ มหาวิทยาลัยรามคำแหง</div></div>' +
     '<p>' + esc(CFG.intro || "") + '</p>' +
     '<div class="info"><div><span>ตำแหน่ง</span><b>อาจารย์ประจำ</b></div><div><span>สังกัด</span><b>คณะบริหารธุรกิจ</b></div><div><span>มหาวิทยาลัย</span><b>รามคำแหง</b></div><div><span>ความสนใจ</span><b>โลจิสติกส์ · การขนส่ง · การท่องเที่ยว</b></div></div></div></div></section>' +
+    teachingBlock(l) +
     '<section class="grid-kpi">' + kpi("ตำรา", byType(l, "B").length, "ตำราที่ใช้ประกอบการสอน") +
     kpi("บทความวิชาการ", P.length, "เผยแพร่แล้ว " + pub + " · พิจารณา " + rev + " · เตรียมต้นฉบับ " + dr) +
     kpi("โครงการวิจัย", R.length, "แล้วเสร็จ " + byStatus(R, "แล้วเสร็จ").length + " · สัญญาทุน " + byStatus(R, "ตรวจสถานะ").length) +
