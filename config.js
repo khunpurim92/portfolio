@@ -1,5 +1,6 @@
 /* ตั้งค่าเว็บ: แก้ไฟล์นี้ไฟล์เดียว */
 window.PORTFOLIO_CONFIG = {
+  lockFiles: true,                  // true = ยังแสดงภาพตัวอย่าง แต่ซ่อนปุ่มเปิดไฟล์ฉบับเต็ม (ตั้ง false เพื่อเปิดปุ่มคืน)
   demo: false,                       // true = โหมดตัวอย่าง (ไม่เชื่อมไดร์ฟ) ตั้งเป็น false เมื่อใส่ apiKey แล้ว
   apiKey: "AIzaSyAqNAJk8DTTu-jX1xmNsCvpmYeYFrO3KVs",                       // Google API key (จำกัดโดเมนเว็บไซต์ของคุณ และจำกัดเฉพาะ Drive API)
   rootFolderId: "10deAizC_gysPix1EZ4mJ6wzUyrw4Iyew",   // โฟลเดอร์ เอกสารประกอบ

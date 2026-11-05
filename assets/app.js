@@ -32,6 +32,7 @@ function byStatus(list, s) { return list.filter(function (i) { return i.status =
 function fileUrl(id) { return "https://drive.google.com/file/d/" + id + "/view"; }
 function fileBtn(i) {
   if (i.web === "ชื่อและสถานะเท่านั้น") return '<span class="muted">ไม่เปิดไฟล์บนเว็บ</span>';
+  if (CFG.lockFiles) return '<span class="muted">ไม่เปิดไฟล์ฉบับเต็มบนเว็บ</span>';
   if (CFG.demo) return '<button type="button" class="btn sm" data-open="' + esc(i.code) + '">เปิดไฟล์ฉบับเต็ม ↗</button>';
   if (!state.open) return '<span class="muted">ปิดการเข้าถึงแล้ว</span>';
   if (!i.fileId) return '<span class="muted">ยังไม่พบไฟล์ในไดร์ฟ</span>';
@@ -72,6 +73,7 @@ function footNote() {
   return CFG.demo ? "โหมดตัวอย่าง: ข้อมูลจากสำเนาในเว็บ ปุ่มเปิดไฟล์ยังไม่เชื่อมไดร์ฟ" : (DRIVE.ok ? "ข้อมูลอ่านสดจาก Google Sheet และ Google Drive" : "ข้อมูลรายการผลงานมาจากสำเนาล่าสุด ไฟล์หลักฐานปิดการเข้าถึงแล้ว");
 }
 function banner() {
+  if (CFG.lockFiles) return '<div class="banner closed" role="status">สิ้นสุดช่วงการประเมินแล้ว เว็บแสดงรายการผลงานและภาพตัวอย่างหน้าแรก หากต้องการดูไฟล์ฉบับเต็มกรุณาติดต่อเจ้าของแฟ้ม</div>';
   return '<div class="banner' + (state.open ? "" : " closed") + '" role="status">' + (state.open ? "ไฟล์หลักฐานเปิดให้ดูระหว่างการประเมินต่อสัญญาจ้าง ปีที่ 8 กดปุ่ม เปิดไฟล์ฉบับเต็ม ที่รายการผลงาน" : "ปิดการเข้าถึงไฟล์หลักฐานแล้ว รายการผลงานยังแสดงไว้ตามเดิม") + "</div>";
 }
 
